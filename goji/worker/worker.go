@@ -5,7 +5,7 @@ import (
     "github.com/google/uuid"
     "github.com/golang-collections/collections/queue"
 
-    "cube/task"
+    "goji/task"
 )
 
 // The worker requirements are:

@@ -1,4 +1,4 @@
-module cube
+module goji 
 
 go 1.21.3
 

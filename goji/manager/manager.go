@@ -5,7 +5,7 @@ import (
     "github.com/google/uuid"
     "github.com/golang-collections/collections/queue"
 
-    "cube/task"
+    "goji/task"
 )
 
 // The requirements for the manager are:

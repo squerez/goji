@@ -7,14 +7,14 @@ import (
     "github.com/google/uuid"
     "github.com/golang-collections/collections/queue"
 
-    "cube/manager"
-    "cube/node"
-    "cube/worker"
-    "cube/task"
+    "goji/manager"
+    "goji/node"
+    "goji/worker"
+    "goji/task"
 )
 
 
-// The code for Cube orchestrator is organized into separate sub-directories inside our project: 
+// The code for goji's orchestrator is organized into separate sub-directories inside our project: 
 // - manager
 // - node
 // - scheduler
