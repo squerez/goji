@@ -1,4 +1,4 @@
-module goji 
+module goji
 
 go 1.21.3
 
