@@ -4,6 +4,9 @@ setup-db:
 inspect-db:
 	@sudo docker inspect goji
 
+inspect-with-curl:
+	@docker ps | grep -e "goji" | awk '{ print $1 }' | xargs -I {} curl --unix-socket /var/run/docker.sock http://docker/containers/\{\}/json | jq .
+
 start-db:
 	@sudo docker start goji
 
